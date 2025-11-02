@@ -1,4 +1,3 @@
 boto3
-functions-framework
-google-cloud-billing
 google-cloud-secret-manager
+requests
