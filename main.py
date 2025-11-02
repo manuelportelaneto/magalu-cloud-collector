@@ -64,7 +64,7 @@ def run_collector():
             "x-api-key": magalu_api_key,
             "x-secret-key": magalu_secret_key
         }
-        billing_api_url = "https://billing.magalu.cloud/v1/billing"
+        billing_api_url = "http://billing.magalu.cloud:8000/v1/billing"
         
         print(f"Consultando a API de faturamento da Magalu: {billing_api_url}")
         
